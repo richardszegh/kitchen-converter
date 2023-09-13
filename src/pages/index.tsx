@@ -94,6 +94,23 @@ function Home() {
           Reset
           <RxReset className="w-5 h-5 ml-2" />
         </button>
+
+        <p className="mt-12 text-xs text-indigo-100 text-center">
+          Made with ❤️ and ☕️
+        </p>
+        <p className="mt-2 text-xs text-indigo-100 text-center">© Since 2023</p>
+
+        <p className="mt-8 text-[8px] text-indigo-100 text-center">
+          Operated by:{' '}
+          <a
+            href="https://richardszegh.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="hover:underline hover:text-white"
+          >
+            Totally Serious Company Ltd.
+          </a>
+        </p>
       </div>
     </div>
   );
